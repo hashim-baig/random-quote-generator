@@ -1,6 +1,7 @@
 main {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -96,6 +97,26 @@ main,
     }
 }
 
+#credits-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+#credits-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#credits-container img {
+    width: 2rem;
+    height: 2rem;
+}
+
 @media screen and (max-width: 450px) {
     #quote-box {
         width: 70%;
@@ -129,4 +150,19 @@ main,
     #tweet-quote {
         padding: 0.3rem;
     }
-}
+
+    #credits-container {
+        gap: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    #credits-container div {
+        gap: 0.5rem;
+    }
+    #credits-container img {
+        width: 1rem;
+        height: 1rem;
+    }
+} 
+
+

@@ -2,6 +2,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { useEffect, useState } from 'react'
 import './App.css'
 import xIcon from "./assets/icons/x-icon.png"
+import hashimImg from "./assets/images/hashim-baig.png"
 
 const colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"]
 
@@ -59,6 +60,14 @@ function App() {
             <button id='new-quote' onClick={() => generateNewQuote(cachedData)} style={{ backgroundColor: color }}>New quote</button>
           </div>
 
+        </section>
+
+        <section id='credits-container'>
+          <span>by</span>
+          <div>
+            <img src={hashimImg} alt="Hashim Baig" />
+            <span>Hashim Baig</span>
+          </div>
         </section>
       </main>
       <Analytics />
