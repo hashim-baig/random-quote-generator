@@ -1,4 +1,5 @@
 # random-quote-generator
+![Quote-Generator](https://github.com/hashim-baig/random-quote-generator/assets/58852439/2af1a37c-a8cc-42b8-a0d6-befe87f06644)
 
 This project is a simple web application built with React that generates random quotes fetched from a public API. It allows users to explore a collection of quotes and share them on **X**.
 
