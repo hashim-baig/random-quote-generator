@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { useEffect, useState } from 'react'
 import './App.css'
 import xIcon from "./assets/icons/x-icon.png"
@@ -60,6 +61,7 @@ function App() {
 
         </section>
       </main>
+      <Analytics />
     </>
   )
 }
